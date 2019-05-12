@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500|Playfair+Display");
+#bootstrap-overrides .current {
+  color: blue; }
+#bootstrap-overrides nav {
+  margin-top: 0px;
+  margin-left: -20px;
+  margin-right: -15px;
+  height: 60px;
+  font-family: "Montserrat";
+  color: blue;
+  font-weight: bold;
+  background-color: white; }
+  #bootstrap-overrides nav a {
+    margin-top: 2px;
+    color: #414141;
+    font-size: 14px;
+    margin-right: -10px;
+    padding-left: 20px; }
+  #bootstrap-overrides nav a:hover {
+    color: #7dc5db; }
+  #bootstrap-overrides nav .navbar-brand {
+    margin-left: 10px;
+    color: black; }
+    #bootstrap-overrides nav .navbar-brand img {
+      margin-top: -7px;
+      width: 40px; }
+  #bootstrap-overrides nav #bs-example-navbar-collapse-1 {
+    margin-top: -49px;
+    position: absolute;
+    right: 30px; }
+#bootstrap-overrides #hero {
+  margin-top: 150px;
+  width: 60%; }
+  #bootstrap-overrides #hero .hero, #bootstrap-overrides #hero .hero-sub {
+    font-family: "Playfair Display";
+    font-size: 65px;
+    font-weight: bold;
+    line-height: 100px;
+    text-align: center;
+    color: #414141; }
+  #bootstrap-overrides #hero .hero-sub {
+    margin-top: 40px;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: "Montserrat"; }
+  #bootstrap-overrides #hero button {
+    font-family: "Montserrat";
+    font-weight: bold;
+    background-color: #7dc5db;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    text-decoration: none;
+    margin-top: 50px;
+    font-size: 20px; }
+#bootstrap-overrides #about {
+  width: 90%;
+  padding-bottom: 100px; }
+  #bootstrap-overrides #about #title, #bootstrap-overrides #about .sub {
+    margin-top: 85px;
+    font-size: 35px;
+    position: relative;
+    color: #414141;
+    font-weight: bold;
+    z-index: 1;
+    font-family: "Playfair Display"; }
+  #bootstrap-overrides #about .sub {
+    font-family: "Montserrat";
+    font-size: 40px;
+    margin-top: 30px;
+    font-weight: 500; }
+  #bootstrap-overrides #about .underline:before, #bootstrap-overrides #about .underline2:before {
+    content: "";
+    background-color: #34ada187;
+    height: 0.8rem;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5%;
+    z-index: -1;
+    width: 205px; }
+  #bootstrap-overrides #about .underline2:before {
+    width: 185px; }
