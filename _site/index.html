@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Home | Golden Heroes</title>
+    <title>Home - Golden Heroes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="shortcut icon" href="../assets/images/logo.jpg" type="image/x-icon">    
     <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
@@ -44,9 +44,28 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="/about/">About Us</a></li>
-        <li><a href="/get-started.html">Get Started</a></li>
-        <li><a href="/contact.html">Contact</a></li>
+        
+        <li><a href="/" class="current" >Home</a></li>
+        
+        
+        
+        <li><a href="/about">About Us</a></li>
+        
+        
+        
+        <li><a href="/get-involved">Get Involved</a></li>
+        
+        
+        
+        
+        
+        <li><a href="/gallery">Gallery</a></li>
+        
+        
+        
+        <li><a href="/contact">Contact</a></li>
+        
+        
       </ul>
 </nav>
 
@@ -54,20 +73,26 @@
         </div>
       </div>
     </div>
-    <div id="hero" class="container-fluid">
-    <div class="row">
+    <div id="hero-wrapper" class="container-fluid">
+    <div class="row" id="hero">
         <div class="col-md-12">
             <p class="hero">Make someone's day with Golden Heroes.</p>
             <p class="hero-sub">Want to join in on our mission? Make chemotherapy care kits with your school, club, organization, or friends and donate them to your local children's hospital!</p>
-            <button type="button" href="#">Get Started</button>
+            <button type="button" onClick="window.location.href='/get-involved'">Get Started</button>
         </div>
     </div>
 </div>
 <div id="about" class="container-fluid">
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-6" id="who-are-we">
             <p id="title" class="underline">Who Are We?</p>
-            <p class="sub">Golden Heroes is a nonprofit organization bringing comfort and smiles to kids with cancer <i>one chemo kit at a time</i>.</p>
+            <p class="sub">Golden Heroes is a nonprofit organization bringing comfort and smiles to kids with cancer <i>one chemo kit at a time</i>.
+            <a href="/about-us">Read More...</a></p>
+        </div>
+        <div class="col-md-6">
+            <div id="about-img-wrapper">
+                <img class="about-img" src="https://images.unsplash.com/photo-1476249202953-93ec0d185ab7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+            </div>
         </div>
     </div>
     <div class="row">
@@ -75,18 +100,67 @@
             <p id="title" class="underline2">Our Impact</p>
         </div>
         <div class="col-md-4">
-            <img src="../assets/...">
+            <img id="image" src="assets/images/image (2).png">
+            <p id="name">Child Life Team at Stonybrook Children's Hospital (NY)</p>
             <p id="quote">"Amazing donation. It was received well on the units. Many kiddos were smiling and parents were thankful. You are an amazing group. I can't stress that enough."</p>
         </div>
         <div class="col-md-4">
-            <img src="../assets/...">
-            <p id="quote">"Amazing donation. It was received well on the units. Many kiddos were smiling and parents were thankful. You are an amazing group. I can't stress that enough."</p>
+                <img id="image" src="assets/images/image (3).png">
+                <p id="name">Chloe Dollar (15 yrs old, box recipient)</p>
+                <p id="quote">"I got my kit today! Thank you soooooo much! Just what I needed today because I have not been feeling good. I absolutely love everything, especially the stress ball because I can use it when my hospital draws blood!"</p>
         </div>
         <div class="col-md-4">
-            <img src="../assets/...">
-            <p id="quote">"Amazing donation. It was received well on the units. Many kiddos were smiling and parents were thankful. You are an amazing group. I can't stress that enough."</p>
+                <img id="image" src="assets/images/image (1).png">
+                <p id="name">Kayla Campbell</p>
+                <p id="quote">"This year I will turn 17, and it will make my 10th year of being cancer free. I had Ewing Sarcoma and went through chemotherapy. I want y’all to know how much little toys and things mean to childhood cancer patients. I was lucky enough to receive multiple things from many generous people, and I treasure them to this day. I just want to thank y’all for what you do. It means more than you could ever imagine."</p>
+        </div>
+        <button onclick="window.location.href='/gallery'">See More</button>
+    </div>
+    <div class="row">
+        <div class="container-achievements">
+            <div id="achievements" class="col-lg-12">
+                <div>
+                    <div class="col-lg-4">
+                        <span class="dot">
+                            <div class="counter" data-count="353">353</div>
+                        </span>
+                        <p>chemo kits packed</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <span class="dot">
+                            <div class="counter" data-count="12">12</div>
+                        </span>
+                        <p>hospitals donated to</p>
+                    </div>
+                    <div class="col-lg-4">
+                            <span class="dot">
+                                <div class="counter" data-count="153">153</div>
+                            </span>
+                            <p>superhero capes sent</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
   </body>
+  <footer>
+    <hr>
+    <div id="sitemap" class="container-fluid">
+        <div id="first-row" class="col-md-12">
+            <a href="/">Home</a>
+            <a href="/about-us">About Us</a>
+            <a href="/get-involved">Get Involved</a>
+            <a href="/resources">Resources</a>
+            <a href="/gallery">Gallery</a>
+        </div>
+        <div class="col-md-12">
+            <a href="/contact">Contact</a>
+            <a href="https://www.instagram.com/goldenheroesbox">Instagram</a>
+            <a href="https://www.facebook.com/goldenheroesbox">Facebook</a>
+        </div>
+    </div>
+    <p id="cr">© 2019 by Golden Heroes. Built & designed by <a href="https://carolinechoi.netlify.com">Caroline Choi</a> with 💕</p>
+</footer>
+  <script src="../scripts/main.js"></script>
 </html>

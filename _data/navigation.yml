@@ -1,6 +1,12 @@
+- name: Home
+  link: /
 - name: About Us
-  link: /about/
-- name: Get Started
-  link: /get-started.html
+  link: /about
+- name: Get Involved
+  link: /get-involved
+- name: Resources
+  link: /resources
+- name: Gallery
+  link: /gallery
 - name: Contact
-  link: /contact.html
+  link: /contact

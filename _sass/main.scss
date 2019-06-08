@@ -13,7 +13,7 @@ $color: #f5f5f5;
 #bootstrap-overrides {
 
 .current {
-    color: blue;
+    color: $blue;
 }
 nav {
     margin-top: 0px;
@@ -48,9 +48,15 @@ nav {
         right: 30px;
     }
 }
-
+#hero-wrapper {
+    width: 100%;
+    padding-bottom: 90px;
+    background-image: url("https://images.unsplash.com/photo-1488965015547-e349b9b11707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80")
+}
 #hero {
-    margin-top: 150px;
+    display: table;
+    margin: 0 auto;
+    margin-top: 170px;
     width: 60%;
     .hero, .hero-sub {
         font-family: $main;
@@ -81,12 +87,25 @@ nav {
         margin-top: 50px;
         font-size: 20px;
     }
+    button:hover {
+        background-color: white;
+        border: solid $blue;
+        color: $black;
+    }
 }
 #about {
     width: 90%;
-    padding-bottom: 100px;
+    margin-top: 70px;
+    background: transparent;
+    #about-img-wrapper {
+        width: 100%;
+        position: relative;
+        right: 0;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
     #title, .sub {
-        margin-top: 85px;
+        margin-top: 105px;
         font-size: 35px;
         position: relative;
         color: $black;
@@ -99,10 +118,17 @@ nav {
         font-size: 40px;
         margin-top: 30px;
         font-weight: 500;
+        a {
+            color: $yellow;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
     }
     .underline:before, .underline2:before {
         content: "";
-        background-color: #34ada187;
+        background-color: $blue;
         height: 0.8rem;
         display: block;
         position: absolute;
@@ -114,6 +140,109 @@ nav {
     }
     .underline2:before {
         width: 185px;
+    }
+    .col-md-4 {
+        margin-top: 70px;
+        #image {
+            width: 100%;
+        }
+        #quote {
+            font-family: $secondary;
+            font-size: 14px;
+            font-weight: 500;
+            color: $black;
+            margin-bottom: 50px;
+        }
+        #name {
+            margin-top: 10px;
+            font-family: $main;
+            font-size: 20p;
+            color: $blue;
+        }
+    }
+    button {
+        font-family: $secondary;
+        font-weight: bold;
+        background-color: $blue;
+        border: solid;
+        border-color: $blue;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        display: table;
+        margin: 0 auto;
+        text-decoration: none;
+        margin-top: 70px;
+        font-size: 20px;
+    }
+    button:hover {
+        background-color: white;
+        border: solid;
+        border-color: $blue;
+        color: $black;
+    }
+}
+
+.container-achievements {
+    margin-top: 60px;
+    #achievements {
+        display: table;
+        margin: auto;
+        margin-top: 55px;
+        width: 100%;
+        padding-top: 50px;
+        font-family: $main;
+        text-align: center;
+        color: $black;
+        height: 300px;
+        background-color: white;
+        position: relative;
+        left: -1%;
+        font-style: bold;
+        padding-bottom: -50px;
+    }
+    @media screen and (max-width: 1000px) {
+        height: 810px;
+    }
+    @media screen and (max-width: 1900px) {
+        height: 500px;
+    }
+    .dot {
+        height: 50px;
+        width: 50px;
+        background-color: $yellow;
+        border-radius: 50%;
+        display: inline-block;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .counter {
+        font-size: 33px;
+        margin-top: 18px;
+        margin-left: 30px;
+        color: $black;
+        @media screen and (max-width: 1300px) {
+            margin-bottom: 10px;
+        }
+    }
+    .underline:before {
+        content: "";
+        background-color: $yellow;
+        height: 0.8rem;
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 3%;
+        z-index: -1;
+    }
+    p {
+        font-size: 20px;
+        margin-top: 30px; 
+        @media screen and (max-width: 1300px) {
+            margin-bottom: 30px;
+            margin-top: 20px;
+        }
     }
 }
 
