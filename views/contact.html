@@ -1,0 +1,37 @@
+---
+name: Contact
+permalink: /contact
+layout: home
+---
+<div id="about-pg-header" class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <p id="about-pg-title">Contact Us</p>
+            <p id="about-pg-sub">Ask us anything. We're always here to help.</p>
+        </div>
+    </div>
+</div>
+<div id="contacts" class="container-fluid">
+    <div class="row">
+        <div id="form" class="col-md-6">
+            <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+                <p>
+                    <label>Your Name<br><input id="input" type="text" name="name" /></label>
+                </p>
+                <p>
+                    <label>Your Email<br><input id="input" type="email" name="email" /></label>
+                </p>
+                <p>
+                    <label>Your Message<br><textarea id="input" placeholder="We don't bite!" name="message"></textarea></label>
+                </p>
+                <div data-netlify-recaptcha="true"></div>
+                <p>
+                <button type="submit">Send</button>
+                </p>
+            </form>
+        </div>
+        <div id="wrapper" class="col-md-6">
+                <img src="https://images.unsplash.com/photo-1559546763-f6f6e1f44e23?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+        </div>
+    </div>
+</div>

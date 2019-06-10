@@ -1,0 +1,70 @@
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500|Playfair+Display');
+$main: 'Playfair Display';
+$secondary: 'Montserrat';
+
+// Colour Palette
+$yellow: #fdc210;
+$light-blue: #9fe1ed;
+$blue: #7dc5db;
+$black: #414141;
+$color: #f5f5f5;
+
+#bootstrap-overrides {
+    #contacts {
+        margin-top: 70px;
+        width: 90%;
+        padding-bottom: 50px;
+        #wrapper {
+            overflow: hidden;
+            img {
+                height: 50%;
+                width: auto;
+            }
+        }
+        #form {
+            margin-top: 50px;
+            form {
+                display: table;
+                margin: 0 auto;
+                input, textarea {
+                    width: 500px;
+                    margin-top: 10px;
+                }
+                p {
+                    margin-top: 20px;
+                    font-family: $main;
+                    font-size: 30px;
+                }
+                #input {
+                    font-family: $secondary;
+                    font-size: 20px;
+                    font-style: regular;
+                    font-weight: 100;
+                }
+                textarea {
+                    height: 100px;
+                }
+                button {
+                    font-family: $secondary;
+                    font-weight: bold;
+                    background-color: $blue;
+                    border: solid;
+                    border-color: $blue;
+                    color: white;
+                    padding: 10px 27px;
+                    text-align: center;
+                    text-decoration: none;
+                    margin-top: 40px;
+                    font-size: 17px;
+                }
+                button:hover {
+                    background-color: white;
+                    border: solid;
+                    border-color: $blue;
+                    color: $black;
+                }
+            }
+        }
+    }
+}

@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500|Playfair+Display");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500|Playfair+Display");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500|Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500|Playfair+Display");
 #bootstrap-overrides .current {
   color: #7dc5db; }
 #bootstrap-overrides nav {
@@ -325,3 +326,49 @@
     font-family: "Montserrat";
     margin-bottom: 15px;
     margin-top: 20px; }
+
+#bootstrap-overrides #contacts {
+  margin-top: 70px;
+  width: 90%;
+  padding-bottom: 50px; }
+  #bootstrap-overrides #contacts #wrapper {
+    overflow: hidden; }
+    #bootstrap-overrides #contacts #wrapper img {
+      height: 50%;
+      width: auto; }
+  #bootstrap-overrides #contacts #form {
+    margin-top: 50px; }
+    #bootstrap-overrides #contacts #form form {
+      display: table;
+      margin: 0 auto; }
+      #bootstrap-overrides #contacts #form form input, #bootstrap-overrides #contacts #form form textarea {
+        width: 500px;
+        margin-top: 10px; }
+      #bootstrap-overrides #contacts #form form p {
+        margin-top: 20px;
+        font-family: "Playfair Display";
+        font-size: 30px; }
+      #bootstrap-overrides #contacts #form form #input {
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-style: regular;
+        font-weight: 100; }
+      #bootstrap-overrides #contacts #form form textarea {
+        height: 100px; }
+      #bootstrap-overrides #contacts #form form button {
+        font-family: "Montserrat";
+        font-weight: bold;
+        background-color: #7dc5db;
+        border: solid;
+        border-color: #7dc5db;
+        color: white;
+        padding: 10px 27px;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 40px;
+        font-size: 17px; }
+      #bootstrap-overrides #contacts #form form button:hover {
+        background-color: white;
+        border: solid;
+        border-color: #7dc5db;
+        color: #414141; }
