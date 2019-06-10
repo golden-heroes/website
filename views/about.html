@@ -1,5 +1,33 @@
 ---
-layout: default
-permalink: /about/
-title: About
+layout: home
+permalink: /about-us
+title: About Us
 ---
+
+<div id="about-pg-header" class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <p id="about-pg-title">About Us</p>
+            <p id="about-pg-sub">Be Bold, Be <i style="color: #fdc210">Gold</i>.</p>
+        </div>
+    </div>
+</div>
+<div id="about-hero" class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <!-- <img id="blob-hero" src="../assets/images/blob-shape.svg"> -->
+            <p class="underline-about" id="about-title">Our Mission</p>
+            <p id="mission">The Golden Heroes mission is to bring comfort and distraction to kids with cancer in hospitals. Our chemo kits are hospital approved and distributed to a child once they are admitted to an oncology unit, providing an immediate sense of comfort! The kits feature essential items such as blankets, hats, and fluffy socks, as well as fun activities like coloring books, puzzles, games, and art supplies, designed to bring some joy to a temporary or long-term hospital stay.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div id="meet" class="col-md-12">
+            <p class="underline-meet" id="about-title">Meet The Team</p>
+            {% for member in site.data.team %}
+            <p id="member-name">{{ member.name }}</p>
+            <p id="member-title">{{ member.title }}</p>
+            <p id="member-bio">{{ member.bio }}</p>
+            {% endfor %}
+        </div>
+    </div>
+</div>

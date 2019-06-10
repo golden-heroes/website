@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500|Playfair+Display");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500|Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500|Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500|Playfair+Display");
 #bootstrap-overrides .current {
   color: #7dc5db; }
 #bootstrap-overrides nav {
@@ -8,7 +10,7 @@
   margin-right: -15px;
   height: 60px;
   font-family: "Montserrat";
-  color: blue;
+  color: #7dc5db;
   font-weight: bold;
   background-color: white; }
   #bootstrap-overrides nav a {
@@ -56,7 +58,7 @@
     font-family: "Montserrat";
     font-weight: bold;
     background-color: #7dc5db;
-    border: none;
+    border: solid #7dc5db;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -155,11 +157,11 @@
     font-family: "Playfair Display";
     text-align: center;
     color: #414141;
+    background-color: transparent;
     height: 300px;
-    background-color: white;
+    margin-bottom: -200px;
     position: relative;
-    font-style: bold;
-    margin-bottom: -100px; }
+    font-style: bold; }
     @media screen and (max-width: 1000px) {
       #bootstrap-overrides .container-achievements #achievements {
         height: 810px; } }
@@ -201,6 +203,8 @@
           margin-top: 20px; } }
 
 #bootstrap-overrides footer {
+  margin-top: 50px;
+  padding-top: 30px;
   padding-bottom: 20px;
   background-color: white;
   line-height: 30px;
@@ -233,3 +237,91 @@
     color: #414141; }
   #bootstrap-overrides #sitemap #first-row {
     margin-bottom: 10px; }
+
+#bootstrap-overrides #about-pg-header {
+  margin-top: 150px;
+  width: 60%; }
+  #bootstrap-overrides #about-pg-header #about-pg-title, #bootstrap-overrides #about-pg-header #about-pg-sub {
+    font-family: "Playfair Display";
+    font-size: 65px;
+    font-weight: bold;
+    line-height: 100px;
+    text-align: center;
+    color: #414141; }
+  #bootstrap-overrides #about-pg-header #about-pg-sub {
+    margin-top: 40px;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: "Montserrat"; }
+#bootstrap-overrides #about-hero {
+  margin-top: 100px;
+  width: 90%; }
+  #bootstrap-overrides #about-hero #about-title {
+    font-family: "Playfair Display";
+    font-weight: bold;
+    font-size: 35px;
+    position: relative;
+    color: #414141;
+    z-index: 1; }
+  #bootstrap-overrides #about-hero #mission {
+    margin-top: 20px;
+    font-family: "Montserrat";
+    color: #414141;
+    font-size: 16px;
+    font-weight: 500; }
+  #bootstrap-overrides #about-hero .underline-about:before, #bootstrap-overrides #about-hero .underline-meet:before {
+    content: "";
+    background-color: #7dc5db;
+    height: 0.8rem;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5%;
+    z-index: -1;
+    width: 197px; }
+  #bootstrap-overrides #about-hero .underline-meet:before {
+    width: 243px; }
+  #bootstrap-overrides #about-hero #meet {
+    margin-top: 100px;
+    padding-bottom: 80px; }
+    #bootstrap-overrides #about-hero #meet #about-title {
+      margin-bottom: 40px; }
+    #bootstrap-overrides #about-hero #meet #member-name {
+      margin-top: 50px;
+      font-family: "Playfair Display";
+      font-size: 30px;
+      color: #414141;
+      font-weight: bold; }
+    #bootstrap-overrides #about-hero #meet #member-title, #bootstrap-overrides #about-hero #meet #member-bio {
+      font-family: "Montserrat";
+      font-size: 16px;
+      color: #7dc5db;
+      font-weight: 500; }
+    #bootstrap-overrides #about-hero #meet #member-bio {
+      color: #414141;
+      margin-top: 10px; }
+
+#bootstrap-overrides #video {
+  margin-top: 60px;
+  width: 80%; }
+#bootstrap-overrides #steps {
+  border: solid 3px #7dc5db;
+  margin-top: 70px;
+  color: #414141;
+  width: 85%; }
+  #bootstrap-overrides #steps #title {
+    margin: 10px;
+    margin-top: 25px;
+    font-family: "Playfair Display";
+    font-size: 30px;
+    font-weight: bold; }
+  #bootstrap-overrides #steps #desc {
+    margin: 10px;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    margin-bottom: 15px;
+    margin-top: 20px; }

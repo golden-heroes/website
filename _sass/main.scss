@@ -21,7 +21,7 @@ nav {
     margin-right: -15px;
     height: 60px;
     font-family: $secondary;
-    color: blue;
+    color: $blue;
     font-weight: bold;
     background-color: white;
     a {
@@ -78,7 +78,7 @@ nav {
         font-family: $secondary;
         font-weight: bold;
         background-color: $blue;
-        border: none;
+        border: solid $blue;
         color: white;
         padding: 15px 32px;
         text-align: center;
@@ -195,11 +195,11 @@ nav {
         font-family: $main;
         text-align: center;
         color: $black;
+        background-color: transparent;
         height: 300px;
-        background-color: white;
+        margin-bottom: -200px;
         position: relative;
         font-style: bold;
-        margin-bottom: -100px;
         @media screen and (max-width: 1000px) {
             height: 810px;
         }
