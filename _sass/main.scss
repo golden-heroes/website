@@ -30,6 +30,7 @@ nav {
         font-size: 14px;
         margin-right: -10px;
         padding-left: 20px; 
+        text-decoration: none;
     }
     a:hover {
         color: $blue;
@@ -156,7 +157,7 @@ nav {
         #name {
             margin-top: 10px;
             font-family: $main;
-            font-size: 20p;
+            font-size: 20px;
             color: $blue;
         }
     }
@@ -197,51 +198,50 @@ nav {
         height: 300px;
         background-color: white;
         position: relative;
-        left: -1%;
         font-style: bold;
-        padding-bottom: -50px;
-    }
-    @media screen and (max-width: 1000px) {
-        height: 810px;
-    }
-    @media screen and (max-width: 1900px) {
-        height: 500px;
-    }
-    .dot {
-        height: 50px;
-        width: 50px;
-        background-color: $yellow;
-        border-radius: 50%;
-        display: inline-block;
-        margin-top: 30px;
-        text-align: center;
-    }
-    .counter {
-        font-size: 33px;
-        margin-top: 18px;
-        margin-left: 30px;
-        color: $black;
-        @media screen and (max-width: 1300px) {
-            margin-bottom: 10px;
+        margin-bottom: -100px;
+        @media screen and (max-width: 1000px) {
+            height: 810px;
         }
-    }
-    .underline:before {
-        content: "";
-        background-color: $yellow;
-        height: 0.8rem;
-        display: block;
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: 3%;
-        z-index: -1;
-    }
-    p {
-        font-size: 20px;
-        margin-top: 30px; 
-        @media screen and (max-width: 1300px) {
-            margin-bottom: 30px;
-            margin-top: 20px;
+        @media screen and (max-width: 1900px) {
+            height: 500px;
+        }
+        .dot {
+            height: 50px;
+            width: 50px;
+            background-color: $yellow;
+            border-radius: 50%;
+            display: inline-block;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .counter {
+            font-size: 33px;
+            margin-top: 18px;
+            margin-left: 30px;
+            color: $black;
+            @media screen and (max-width: 1300px) {
+                margin-bottom: 10px;
+            }
+        }
+        .underline:before {
+            content: "";
+            background-color: $yellow;
+            height: 0.8rem;
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 3%;
+            z-index: -1;
+        }
+        p {
+            font-size: 20px;
+            margin-top: 30px; 
+            @media screen and (max-width: 1300px) {
+                margin-bottom: 30px;
+                margin-top: 20px;
+            }
         }
     }
 }

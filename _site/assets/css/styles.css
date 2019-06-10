@@ -16,7 +16,8 @@
     color: #414141;
     font-size: 14px;
     margin-right: -10px;
-    padding-left: 20px; }
+    padding-left: 20px;
+    text-decoration: none; }
   #bootstrap-overrides nav a:hover {
     color: #7dc5db; }
   #bootstrap-overrides nav .navbar-brand {
@@ -122,7 +123,7 @@
     #bootstrap-overrides #about .col-md-4 #name {
       margin-top: 10px;
       font-family: "Playfair Display";
-      font-size: 20p;
+      font-size: 20px;
       color: #7dc5db; }
   #bootstrap-overrides #about button {
     font-family: "Montserrat";
@@ -157,52 +158,49 @@
     height: 300px;
     background-color: white;
     position: relative;
-    left: -1%;
     font-style: bold;
-    padding-bottom: -50px; }
-  @media screen and (max-width: 1000px) {
-    #bootstrap-overrides .container-achievements {
-      height: 810px; } }
-  @media screen and (max-width: 1900px) {
-    #bootstrap-overrides .container-achievements {
-      height: 500px; } }
-  #bootstrap-overrides .container-achievements .dot {
-    height: 50px;
-    width: 50px;
-    background-color: #fdc210;
-    border-radius: 50%;
-    display: inline-block;
-    margin-top: 30px;
-    text-align: center; }
-  #bootstrap-overrides .container-achievements .counter {
-    font-size: 33px;
-    margin-top: 18px;
-    margin-left: 30px;
-    color: #414141; }
-    @media screen and (max-width: 1300px) {
-      #bootstrap-overrides .container-achievements .counter {
-        margin-bottom: 10px; } }
-  #bootstrap-overrides .container-achievements .underline:before {
-    content: "";
-    background-color: #fdc210;
-    height: 0.8rem;
-    display: block;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 3%;
-    z-index: -1; }
-  #bootstrap-overrides .container-achievements p {
-    font-size: 20px;
-    margin-top: 30px; }
-    @media screen and (max-width: 1300px) {
-      #bootstrap-overrides .container-achievements p {
-        margin-bottom: 30px;
-        margin-top: 20px; } }
+    margin-bottom: -100px; }
+    @media screen and (max-width: 1000px) {
+      #bootstrap-overrides .container-achievements #achievements {
+        height: 810px; } }
+    @media screen and (max-width: 1900px) {
+      #bootstrap-overrides .container-achievements #achievements {
+        height: 500px; } }
+    #bootstrap-overrides .container-achievements #achievements .dot {
+      height: 50px;
+      width: 50px;
+      background-color: #fdc210;
+      border-radius: 50%;
+      display: inline-block;
+      margin-top: 30px;
+      text-align: center; }
+    #bootstrap-overrides .container-achievements #achievements .counter {
+      font-size: 33px;
+      margin-top: 18px;
+      margin-left: 30px;
+      color: #414141; }
+      @media screen and (max-width: 1300px) {
+        #bootstrap-overrides .container-achievements #achievements .counter {
+          margin-bottom: 10px; } }
+    #bootstrap-overrides .container-achievements #achievements .underline:before {
+      content: "";
+      background-color: #fdc210;
+      height: 0.8rem;
+      display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 3%;
+      z-index: -1; }
+    #bootstrap-overrides .container-achievements #achievements p {
+      font-size: 20px;
+      margin-top: 30px; }
+      @media screen and (max-width: 1300px) {
+        #bootstrap-overrides .container-achievements #achievements p {
+          margin-bottom: 30px;
+          margin-top: 20px; } }
 
 #bootstrap-overrides footer {
-  margin-top: 50px;
-  padding-top: 30px;
   padding-bottom: 20px;
   background-color: white;
   line-height: 30px;

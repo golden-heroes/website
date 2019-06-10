@@ -13,8 +13,6 @@ $color: #f5f5f5;
 #bootstrap-overrides {
 
 footer {
-    margin-top: 50px;
-    padding-top: 30px;
     padding-bottom: 20px;
     background-color: white;
     line-height: 30px;
@@ -26,7 +24,7 @@ footer {
     }
     a {
         text-decoration: underline;
-        color: #414141; 
+        color: $black; 
     }
     #cr {
         font-size: 10px;
