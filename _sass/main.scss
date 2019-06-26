@@ -51,8 +51,14 @@ nav {
 }
 #hero-wrapper {
     width: 100%;
-    padding-bottom: 90px;
-    background-image: url("https://images.unsplash.com/photo-1560441464-7d9c7e5e46dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    padding-bottom: 210px;
+    .background-img {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        left: 0;
+    }
 }
 #hero {
     display: table;
