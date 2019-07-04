@@ -63,7 +63,7 @@ nav {
 #hero {
     display: table;
     margin: 0 auto;
-    margin-top: 170px;
+    margin-top: 190px;
     width: 60%;
     .hero, .hero-sub {
         font-family: $main;
@@ -71,7 +71,7 @@ nav {
         font-weight: bold;
         line-height: 100px;
         text-align: center;
-        color: $black;
+        color: $color;
     }
     .hero-sub {
         margin-top: 40px;

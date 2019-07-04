@@ -45,7 +45,7 @@
 #bootstrap-overrides #hero {
   display: table;
   margin: 0 auto;
-  margin-top: 170px;
+  margin-top: 190px;
   width: 60%; }
   #bootstrap-overrides #hero .hero, #bootstrap-overrides #hero .hero-sub {
     font-family: "Playfair Display";
@@ -53,7 +53,7 @@
     font-weight: bold;
     line-height: 100px;
     text-align: center;
-    color: #414141; }
+    color: #f5f5f5; }
   #bootstrap-overrides #hero .hero-sub {
     margin-top: 40px;
     font-size: 17px;
