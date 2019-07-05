@@ -6,7 +6,7 @@
   link: /get-involved
 - name: Resources
   link: /resources
-- name: Gallery
-  link: /gallery
+# - name: Gallery
+#   link: /gallery
 - name: Contact
   link: /contact

@@ -1,15 +1,15 @@
 ---
 permalink: /gallery
-layout: home
 title: Gallery
 ---
 
+<script type="text/javascript" src="../scripts/instafeed.min.js"></script>
 <script type="text/javascript">
     var feed = new Instafeed({
         get: 'user',
-        userID: '5435577291',
-        sortBy: 'most-recent',
-        clintID: '592cca50a2da4fd4b853a056191ec0ca'
+        userId: 5435577291,
+        clientId: '592cca50a2da4fd4b853a056191ec0ca',
+        template: '<a href="{{link}}"><img src="{{image}}" /></a>'
     });
     feed.run();
 </script>
