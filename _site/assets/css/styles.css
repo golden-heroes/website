@@ -57,6 +57,12 @@
     height: auto;
     overflow: hidden;
     left: 0; }
+@media only screen and (max-width: 425px) {
+  #bootstrap-overrides #hero-wrapper {
+    padding-bottom: 0px; }
+    #bootstrap-overrides #hero-wrapper .background-img {
+      height: 100%;
+      width: auto; } }
 #bootstrap-overrides #hero {
   display: table;
   margin: 0 auto;
@@ -92,6 +98,23 @@
     background-color: white;
     border: solid #7dc5db;
     color: #414141; }
+@media only screen and (max-width: 411px) {
+  #bootstrap-overrides #hero {
+    width: 95%;
+    margin-top: 130px; }
+    #bootstrap-overrides #hero .hero {
+      font-size: 30px;
+      line-height: 50px; }
+    #bootstrap-overrides #hero .hero-sub {
+      font-size: 14px; }
+    #bootstrap-overrides #hero button {
+      padding: 10px 28px;
+      text-align: center;
+      display: table;
+      margin: 0 auto;
+      text-decoration: none;
+      margin-top: 40px;
+      font-size: 16px; } }
 #bootstrap-overrides #about {
   width: 90%;
   margin-top: 130px;
