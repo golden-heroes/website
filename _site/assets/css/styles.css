@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500|Playfair+Display");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500|Playfair+Display");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500|Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500|Playfair+Display");
 #bootstrap-overrides .current {
   color: #7dc5db; }
 #bootstrap-overrides nav {
@@ -418,3 +419,23 @@
         border: solid;
         border-color: #7dc5db;
         color: #414141; }
+
+#bootstrap-overrides #resources-box {
+  margin-top: 40px; }
+  #bootstrap-overrides #resources-box .row {
+    text-align: center; }
+    #bootstrap-overrides #resources-box .row a {
+      font-family: "Montserrat";
+      color: #414141;
+      font-size: 14px;
+      font-style: bold; }
+    #bootstrap-overrides #resources-box .row #title {
+      margin-top: 35px;
+      color: #414141;
+      font-weight: bold;
+      font-family: "Playfair Display";
+      font-size: 20px; }
+    #bootstrap-overrides #resources-box .row #sub {
+      font-size: 15px;
+      color: #414141;
+      font-family: "Montserrat"; }

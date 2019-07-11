@@ -15,7 +15,7 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">{% for item in site.data.navigation %}
-        {% if item.name != "Resources" %}
+        {% if item.name != "Privacy Policy" %}
         <li><a href="{{ item.link }}"{% if page.url == item.link %} class="current" {% endif %}>{{ item.name }}</a></li>
         {% endif %}
         {% endfor %}
