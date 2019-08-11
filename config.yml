@@ -1,0 +1,10 @@
+title: Golden Heroes
+description: A nonprofit organization bringing comfort and smiles to kids with cancer, one chemo kit at a time.
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+sass:
+  style: compressed

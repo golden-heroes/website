@@ -1,9 +1,15 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500|Playfair+Display");
+/* Colour Palette */
+/* bootstrap media queries */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500|Playfair+Display");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500|Playfair+Display");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500|Playfair+Display");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500|Playfair+Display");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500|Playfair+Display");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500|Playfair+Display");
+body {
+  margin-top: 60px; }
+
 #bootstrap-overrides .current {
   color: #7dc5db; }
 #bootstrap-overrides nav {
@@ -51,35 +57,31 @@
       margin-top: 10px; } }
 #bootstrap-overrides #hero-wrapper {
   width: 100%;
-  padding-bottom: 210px; }
-  #bootstrap-overrides #hero-wrapper .background-img {
-    position: absolute;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    left: 0; }
-@media only screen and (max-width: 425px) {
-  #bootstrap-overrides #hero-wrapper {
-    padding-bottom: 0px; }
-    #bootstrap-overrides #hero-wrapper .background-img {
-      height: 100%;
-      width: auto; } }
+  height: 90vh;
+  background-image: url("../images/hero-image-wave.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 #bootstrap-overrides #hero {
-  display: table;
   margin: 0 auto;
-  margin-top: 190px;
-  width: 60%; }
-  #bootstrap-overrides #hero .hero, #bootstrap-overrides #hero .hero-sub {
-    font-family: "Playfair Display";
-    font-size: 65px;
-    font-weight: bold;
-    line-height: 100px;
-    text-align: center;
-    color: #f5f5f5; }
+  width: 60%;
+  text-align: center; }
+  #bootstrap-overrides #hero .hero,
   #bootstrap-overrides #hero .hero-sub {
-    margin-top: 40px;
-    font-size: 17px;
-    line-height: 30px;
+    font-family: "Playfair Display";
+    color: #f5f5f5; }
+  #bootstrap-overrides #hero .hero {
+    font-size: 5rem;
+    line-height: 6rem;
+    font-weight: bold; }
+  #bootstrap-overrides #hero .hero-sub {
+    margin-top: 30px;
+    font-size: 2rem;
+    line-height: 3.5rem;
     font-weight: 500;
     font-family: "Montserrat"; }
   #bootstrap-overrides #hero button {
@@ -89,8 +91,6 @@
     border: solid #7dc5db;
     color: white;
     padding: 15px 32px;
-    text-align: center;
-    display: table;
     margin: 0 auto;
     text-decoration: none;
     margin-top: 50px;
@@ -99,26 +99,28 @@
     background-color: white;
     border: solid #7dc5db;
     color: #414141; }
-@media only screen and (max-width: 411px) {
+@media only screen and (max-width: 768px) {
   #bootstrap-overrides #hero {
-    width: 95%;
-    margin-top: 130px; }
+    width: 75%; } }
+@media only screen and (max-width: 480px) {
+  #bootstrap-overrides #hero {
+    width: 95%; }
     #bootstrap-overrides #hero .hero {
-      font-size: 30px;
-      line-height: 50px; }
+      font-size: 3rem;
+      line-height: 3.5rem; }
     #bootstrap-overrides #hero .hero-sub {
-      font-size: 14px; }
+      font-size: 1.25rem;
+      line-height: 1.75rem; }
     #bootstrap-overrides #hero button {
       padding: 10px 28px;
-      text-align: center;
-      display: table;
       margin: 0 auto;
       text-decoration: none;
-      margin-top: 40px;
+      margin-top: 30px;
       font-size: 16px; } }
 #bootstrap-overrides #about {
   width: 90%;
-  margin-top: 130px;
+  padding-top: 130px;
+  margin: 0 auto;
   background: transparent; }
   #bootstrap-overrides #about #about-img-wrapper {
     width: 100%;
@@ -129,7 +131,8 @@
     #bootstrap-overrides #about #about-img-wrapper img {
       width: 100%;
       height: auto; }
-  #bootstrap-overrides #about #title, #bootstrap-overrides #about .sub {
+  #bootstrap-overrides #about #title,
+  #bootstrap-overrides #about .sub {
     margin-top: 105px;
     font-size: 35px;
     position: relative;
@@ -147,7 +150,8 @@
       text-decoration: none; }
     #bootstrap-overrides #about .sub a:hover {
       text-decoration: underline; }
-  #bootstrap-overrides #about .underline:before, #bootstrap-overrides #about .underline2:before {
+  #bootstrap-overrides #about .underline:before,
+  #bootstrap-overrides #about .underline2:before {
     content: "";
     background-color: #7dc5db;
     height: 0.8rem;
@@ -194,61 +198,49 @@
     border: solid;
     border-color: #7dc5db;
     color: #414141; }
-#bootstrap-overrides .container-achievements {
-  margin-top: 60px; }
-  #bootstrap-overrides .container-achievements #achievements {
-    display: table;
-    margin: auto;
-    margin-top: 55px;
-    width: 100%;
-    padding-top: 50px;
-    font-family: "Playfair Display";
-    text-align: center;
-    color: #414141;
-    background-color: transparent;
-    height: 300px;
-    margin-bottom: -200px;
-    position: relative;
-    font-style: bold; }
-    @media screen and (max-width: 1000px) {
-      #bootstrap-overrides .container-achievements #achievements {
-        height: 810px; } }
-    @media screen and (max-width: 1900px) {
-      #bootstrap-overrides .container-achievements #achievements {
-        height: 500px; } }
-    #bootstrap-overrides .container-achievements #achievements .dot {
-      height: 50px;
-      width: 50px;
-      background-color: #fdc210;
-      border-radius: 50%;
-      display: inline-block;
-      margin-top: 30px;
-      text-align: center; }
-    #bootstrap-overrides .container-achievements #achievements .counter {
-      font-size: 33px;
-      margin-top: 18px;
-      margin-left: 30px;
-      color: #414141; }
-      @media screen and (max-width: 1300px) {
-        #bootstrap-overrides .container-achievements #achievements .counter {
-          margin-bottom: 10px; } }
-    #bootstrap-overrides .container-achievements #achievements .underline:before {
-      content: "";
-      background-color: #fdc210;
-      height: 0.8rem;
-      display: block;
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 3%;
-      z-index: -1; }
-    #bootstrap-overrides .container-achievements #achievements p {
-      font-size: 20px;
-      margin-top: 30px; }
-      @media screen and (max-width: 1300px) {
-        #bootstrap-overrides .container-achievements #achievements p {
-          margin-bottom: 30px;
-          margin-top: 20px; } }
+#bootstrap-overrides #achievements {
+  width: 100%;
+  padding-top: 80px;
+  font-family: "Playfair Display";
+  text-align: center;
+  color: #414141;
+  background-color: transparent;
+  position: relative;
+  font-style: bold;
+  margin: 0 auto; }
+  #bootstrap-overrides #achievements .dot {
+    height: 50px;
+    width: 50px;
+    background-color: #fdc210;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 30px;
+    text-align: center; }
+  #bootstrap-overrides #achievements .counter {
+    font-size: 33px;
+    margin-top: 18px;
+    margin-left: 30px;
+    color: #414141; }
+    @media screen and (max-width: 1300px) {
+      #bootstrap-overrides #achievements .counter {
+        margin-bottom: 10px; } }
+  #bootstrap-overrides #achievements .underline:before {
+    content: "";
+    background-color: #fdc210;
+    height: 0.8rem;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3%;
+    z-index: -1; }
+  #bootstrap-overrides #achievements p {
+    font-size: 20px;
+    margin-top: 30px; }
+    @media screen and (max-width: 1300px) {
+      #bootstrap-overrides #achievements p {
+        margin-bottom: 30px;
+        margin-top: 20px; } }
 
 #bootstrap-overrides footer {
   margin-top: 50px;
