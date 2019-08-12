@@ -8,9 +8,14 @@ GEM
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
+    eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
+    ffi (1.10.0)
     ffi (1.10.0-x64-mingw32)
     forwardable-extended (2.6.0)
+    hawkins (2.0.5)
+      em-websocket (~> 0.5)
+      jekyll (~> 3.1)
     http_parser.rb (0.6.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
@@ -60,9 +65,11 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
+  hawkins
   jekyll
   jekyll-feed
   jekyll-seo-tag
